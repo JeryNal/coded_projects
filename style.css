@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color:white;
+
+
+}
+h1{
+    margin-top:75px;
+    margin-left: 25%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+#nav_bar{
+    height:70px;
+    width: 100%;
+    background-color: rgb(47, 211, 211);
+    padding-top: 30px;
+
+}
+#nav_bar{
+    list-style-type: none;
+    margin: 0;
+}
+#nav_bar>li{
+    width: 16.6%;
+    display: flex;
+    float: left;
+}
+#nav_bar>li>a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#nav_bar>li>a:hover{
+    color: red;
+
+}
+#nav_bar>li>a:visited{
+    color: teal;
+}
+main{
+    height:500;
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    height:300px;
+    background-color: blanchedalmond;
+}
+#git{
+    color: darkblue;
+}
+#lkn{
+    color: blue;
+}
+#int{
+    color: pink;
+}
+#twt{
+    color: blue;
+}
+#fb{
+    color:blue;
+}
